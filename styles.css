@@ -17,7 +17,7 @@
 body {
     font-size: 1.1em;
     font-family: Arial, Helvetica, sans-serif;
-	background-color: white;
+	background-image: url("grassbackground.jpg");
 }
 
 #container {
@@ -157,4 +157,34 @@ footer a:hover {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
+}
+
+div.formRow {
+	display: flex;
+	flex-flow: row wrap;
+	margin: 7px 0px;
+}
+
+div.formRow > * {
+	flex: 1 5 150px;
+}
+
+form#survey {
+	display: flex;
+	flex-flow: row wrap;
+}
+
+form#survey > fieldset {
+	background-color: #a4d124;
+	border-radius: 20px;
+	flex: 1 1 400px;
+	font-size: 0.85em;
+	padding: 10px;
+	margin: 10px;
+}
+
+legend {
+	background-color: rgb(0, 0, 0);
+	color: white;
+	padding: 5px;
 }
