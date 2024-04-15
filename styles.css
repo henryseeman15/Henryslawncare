@@ -186,5 +186,52 @@ form#survey > fieldset {
 legend {
 	background-color: rgb(0, 0, 0);
 	color: white;
-	padding: 5px;
+	padding: 3px;
 }
+
+table.schedule {
+	background: white;
+	border: 8px outset rgb(164, 209, 29);
+	font-size: 1.00em;
+	width: 100%
+}
+table.schedule th, table.schedule td {
+	border: 1px solid gray;
+	padding: 5px;
+	vertical-align: top;
+}
+table.schedule caption{
+	caption-side: bottom;
+	text-align: right;
+}
+table.schedule thead {
+	background: rgb(164, 209, 29);
+	color: black;
+}
+
+table.schedule tfoot{
+	background: black;
+	color: white;
+}
+
+table.schedule thead tr {
+	height: 30px;
+}
+
+table.schedule tbody tr {
+	height: 40px;
+}
+
+
+/* Column Group Styles */
+
+col#firstCol {
+	background: rgb(255, 255, 255);
+	width: 16%;
+}
+
+col.dayCols {
+	background: rgb(255, 255, 255);
+	width: 12%;
+}
+
